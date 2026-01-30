@@ -1,0 +1,49 @@
+[
+  {
+    "id": "cmd_dest",
+    "name": "Command Destroyer",
+    "verified": true,
+    "file": "downloads/CommandDestroyer.exe",
+    "icon": "assets/skull.png"
+  },
+  {
+    "id": "game_core",
+    "name": "game.exe",
+    "verified": true,
+    "file": "downloads/game.exe",
+    "icon": "assets/game.png"
+  },
+  {
+    "id": "paper_balls",
+    "name": "paperballs",
+    "verified": true,
+    "file": "downloads/paperballs.exe",
+    "icon": "assets/paper.png"
+  },
+  {
+    "id": "shield_proj",
+    "name": "ShieldProject",
+    "verified": true,
+    "file": "downloads/ShieldProject.exe",
+    "icon": "assets/shield.png"
+  },
+  {
+    "id": "storage_test",
+    "name": "storagetest",
+    "verified": true,
+    "file": "downloads/storagetest.exe",
+    "icon": "assets/storage.png"
+  },
+  {
+    "id": "virus_ultra",
+    "name": "Virus Defender Ultra",
+    "verified": true,
+    "file": "downloads/Virus Defender Ultra.exe"
+    
+  },
+{"id": "Destroyer",
+ "name": "Destroyer",
+ "verified": true,
+ "file": "downloads/destroyer.bat"
+}
+]

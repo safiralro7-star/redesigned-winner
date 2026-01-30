@@ -1,0 +1,36 @@
+.btn-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.report-btn {
+    background: transparent;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    padding: 5px 10px;
+}
+
+.report-btn:hover {
+    background: #ff0000;
+    color: #000;
+}
+
+.history-link {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #888;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.8em;
+}#tos-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.95); z-index: 9999;
+    display: flex; align-items: center; justify-content: center;
+}
+#tos-modal {
+    border: 2px solid #00ff41; padding: 40px; background: #000; max-width: 500px;
+}

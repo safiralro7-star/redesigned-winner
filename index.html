@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRNL EXEC | App Distribution</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="search-container">
+    <input type="text" id="app-search" placeholder="SEARCH_PROTOCOLS..." onkeyup="filterApps()">
+</div>
+<div id="tos-overlay">
+    <div id="tos-modal">
+        <h2>⚠️ SYSTEM_ACCESS_PROTOCOL</h2>
+        <p>By entering this hub, you acknowledge:</p>
+        <ul>
+            <li>'VERIFIED' protocols have been screened for stability.</li>
+            <li>'UNKNOWN' community uploads are executed at your own risk.</li>
+            <li>We are not responsible for system instability during fullscreen execution.</li>
+        </ul>
+        <button onclick="acceptTerms()" class="download-btn">I_ACCEPT_PROTOCOLS</button>
+    </div>
+</div>
+</head>
+<body>
+    <header>
+        <h1>SYSTEM_CORE > DOWNLOAD_CENTER</h1>
+        <p>Select a protocol to initialize download.</p>
+    </header>
+    <section id="upload-zone">
+    <h2>HOST_YOUR_PROTOCOL</h2>
+    <div class="upload-box">
+        <input type="text" id="new-app-name" placeholder="APP_NAME">
+        <input type="file" id="file-upload" accept=".exe">
+        <button onclick="submitApp()" class="download-btn">INITIALIZE_UPLOAD</button>
+    </div>
+</section>
+    <main id="app-grid">
+        </main>
+
+    <footer>
+        <p>&copy; 2026 COMMAND_DESTROYER_OS | [STATUS: ENCRYPTED]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
