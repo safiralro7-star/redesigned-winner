@@ -45,5 +45,5 @@ app.post('/report', (req, res) => {
     
     res.status(200).send("Report received.");
 });
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000; // Render prefers 10000
 http.listen(PORT, () => console.log(`System Online on Port ${PORT}`));
